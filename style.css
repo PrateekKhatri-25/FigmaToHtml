@@ -1,0 +1,180 @@
+* {
+    list-style: none;
+    color: #0a2134;
+}
+
+.padd {
+    padding: 10px 18px;
+}
+
+.bground-1 {
+    /* background-color: #2699FB; */
+    background-image: linear-gradient(to left, #0ACEFE 0%, #2699FB 100%);
+}
+
+#one .left span {
+    color: #2699FB;
+}
+
+#one .right {
+    background-color: #E9F5FF;
+    height: 453px;
+    border-radius: 50%;
+    position: relative;
+    z-index: -1;
+}
+
+#one .right form {
+    position: absolute;
+    left: 66px;
+    top: 22px;
+}
+
+#one .right form .space {
+    width: 80%;
+    /* height: 20px; */
+    background-color: white;
+}
+
+.color {
+    color: #2699FB;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.size {
+    font-size: 14px;
+}
+
+.bground-2 {
+    background-color: #F7FAFF;
+}
+
+.size-2 {
+    font-size: 12px;
+}
+
+.wide {
+    width: 42px;
+    border: 2px solid #ccc;
+}
+
+.wide-2 {
+    width: 260px;
+}
+
+.wide-4 {
+    width: 30%;
+}
+
+#six .right {
+    position: relative;
+}
+
+#six .right .index {
+    z-index: 100;
+    position: relative;
+}
+
+#six .right .image1 {
+    position: absolute;
+    top: 1px;
+    left: -3px;
+}
+
+#six .right .image2 {
+    position: absolute;
+    top: 561px;
+    right: -31px;
+}
+
+#seven .active {
+    padding: 2px;
+    background-color: #ccc;
+    border-bottom: 2px solid #2699FB;
+}
+
+#seven .first ul li {
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#seven .first ul li:hover {
+    background-color: #ccc;
+    border-bottom: 2px solid #2699FB;
+}
+
+#seven .wide-3 {
+    width: 87%;
+}
+
+.shadow {
+    box-shadow: 2px 2px 5px 5px #ccc;
+}
+
+.line-h {
+    line-height: 2px;
+}
+
+#ten{
+    position: relative;
+    border-radius: 20px;
+}
+
+#ten .image1 .left{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+#ten .image2 .right{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+
+.bground-3{
+    background-color: #0A2540;
+}
+
+.fix{
+    width: 100%;
+    position: fixed;
+    bottom: 1px;
+    display: none;
+    z-index: 10000;
+}
+
+/* Accordian */
+.main{
+    width: 800px;
+    margin: 30px auto;
+    background-color: yellow;
+}
+.main .box{
+    width: 100%;
+    margin: 5px 0px;
+}
+.box h3{
+    background-color: antiquewhite;
+    border-radius: 10px 10px 0px 0px;
+    padding: 10px;
+    cursor: pointer;
+    position: relative;
+}
+.box p{
+    color: white;
+    transform: scaleY(0);
+    padding: 10px;
+    transform-origin: top;
+    height: 0px;
+    transition: 0.5s;
+}
+h3 span{
+    position: absolute;
+    right: 10px;
+}
+.active{
+    height: auto !important;
+    transform: scaleY(1) !important;
+}

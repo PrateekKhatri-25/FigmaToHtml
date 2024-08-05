@@ -1,0 +1,26 @@
+@media only screen and (min-width:200px) and (max-width:767px) {
+    #one .left h1{
+        font-size: 26px;
+    }
+    #one .left .d-c{
+        padding: 3px;
+        font-size: 11px;
+    }
+    .fix{
+        display: block;
+    }
+
+    /* #six .right{
+        width: 350px;
+        padding: 0px;
+        margin: 0px;
+    } */
+
+    #six .right .image2{
+        /* width: 100px;
+        top: 480px;
+        right: 95px; */
+        display: none;
+    }
+    
+}
